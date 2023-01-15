@@ -22,7 +22,7 @@ div.container > div.neon {
   font-family: neon;
   color: #fb4264;
   font-size: 5vw;
-  line-height: 7vw;
+  line-height: 5vw;
   text-shadow: 0 0 3vw #f40a35;
   margin-top: 10vw;
   animation: neon 3s linear infinite;
