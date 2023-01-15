@@ -10,9 +10,21 @@
   <body>
     <div class="container">
       <div class="neon">Practice the Git!</div>
-      <ul class="main-content">
-        <li>vscode 에디터로 커밋해보기</li>
-      </ul>
+      <ul class="main-content"></ul>
     </div>
   </body>
+  <script>
+    const logs = [
+      "vscode 에디터로 커밋해보기",
+      "dom 조작해보기",
+      "first-branch에서 추가한 내용",
+    ];
+    const ul = document.querySelector(".main-content");
+
+    logs.forEach((item, index) => {
+      const li = document.createElement("li");
+      ul.appendChild(li);
+      ul.children[index].innerHTML = "&#10024;&nbsp;" + item;
+    });
+  </script>
 </html>
