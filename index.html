@@ -10,7 +10,8 @@
   <body>
     <div class="container">
       <div class="neon">Practice the Git!</div>
-      <ul class="main-content"></ul>
+      <p>~ logs ~</p>
+      <ul class="log-list"></ul>
     </div>
   </body>
   <script>
@@ -22,9 +23,9 @@
       "master에서 추가한 내용",
       "rebase-branch에서 추가한 내용",
       "squash-branch에서 추가한 내용",
-      "충돌 시험 from [main]"
+      "충돌 시험 from [main]",
     ];
-    const ul = document.querySelector(".main-content");
+    const ul = document.querySelector(".log-list");
 
     logs.forEach((item, index) => {
       const li = document.createElement("li");

@@ -30,13 +30,21 @@ div.container > div.neon {
   -webkit-animation: neon 2s linear infinite;
 }
 
-div.container > ul.main-content {
-  width: 25vw;
-  margin: 0 auto;
+div.container > p {
   margin-top: 4vw;
+  color: #fed128;
+  font-size: 1.5vw;
+  font-family: fantasy;
+  letter-spacing: 2px;
 }
 
-div.container > ul.main-content > li {
+div.container > ul.log-list {
+  width: 25vw;
+  margin: 0 auto;
+  margin-top: 1.5vw;
+}
+
+div.container > ul.log-list > li {
   color: #fed128;
   list-style: none;
   font-size: 1vw;
