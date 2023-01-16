@@ -17,7 +17,7 @@
 
 기능 단위의 브랜치, 새로운 기능 추가하려면 feature 브랜치 파서 작업하면 됨, develope 브랜치에서 분기
 
-### release
+### release/버전
 >*from **deveope** / to **develope** / to **main*** 
 
 main 브랜치에 병합 전 여러가지 테스트해보는 임시 브랜치
@@ -25,4 +25,4 @@ main 브랜치에 병합 전 여러가지 테스트해보는 임시 브랜치
 ### hotfix/~
 > *from **main** / to **develope** / to **main***
 
-버그 발생 시 사용하는 브랜치
+main 브랜치 버그 해결용 브랜치
